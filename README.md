@@ -6,7 +6,7 @@ This repository ("Daily-Planner") contains the code for showcasing some basic ht
 
 The Website is built using html,css and javascript
 
-Link to hosted site : https://thomasptharakan.github.io/TBC
+Link to hosted site : https://thomasptharakan.github.io/Daily-Planner/
 
 
 
