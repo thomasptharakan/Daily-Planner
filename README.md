@@ -1,87 +1,70 @@
-# Third-Party APIs: Work Day Scheduler
+# Web API Quiz
 
-## Your Task
+## Description
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+This repository ("Daily-Planner") contains the code for showcasing some basic html, css and Javascript code that is a quiz that makes use of jquery,local storage, event handlers.
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+The Website is built using html,css and javascript
 
-## User Story
+Link to hosted site : https://thomasptharakan.github.io/TBC
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
 
-## Acceptance Criteria
 
-The app should:
+## Table of Contents
 
-* Display the current day at the top of the calender when a user opens the planner.
- 
-* Present timeblocks for standard business hours when the user scrolls down.
- 
-* Color-code each timeblock based on past, present, and future when the timeblock is viewed.
- 
-* Allow a user to enter an event when they click a timeblock
+- [Installation](#installation)
+- [Usage](#usage)
+- [Mock Up](#mock_up)
+- [File Structure](#file_structure)
+- [Badges](#badges)
+- [License](#license)
 
-* Save the event in local storage when the save button is clicked in that timeblock.
+## Installation
 
-* Persist events between refreshes of a page
+1. Clone the repo
+   ```sh
+   git clone https://github.com/thomasptharakan/Daily-Planner.git
+   
+   ```
 
+
+## Usage
+
+1. Navigate to the cloned folder
+
+2. Open index.html in a browser
+
+## Mock_Up
 The following animation demonstrates the application functionality:
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./images/05-third-party-apis-homework-demo.gif)
+![Animation of Daily-Planner. Planner create a hourly task list that users can add text into, and save. Once save the page if refreshed will load any save data from local storage.](images/05-third-party-apis-homework-demo.gif)
 
 
-## Grading Requirements
 
-This homework is graded based on the following criteria: 
+## File_Structure
+```
 
-### Technical Acceptance Criteria: 40%
+├── js
+│   └── index.js
+├── css
+│   └── style.css
+├── images
+│   └── 05-third-party-apis-homework-demo.gif
+├── index.html
+├── LICENSE
+└── README.md
+```
 
-* Satisfies all of the above acceptance criteria plus the following:
+## Badges
 
-  * Uses a date utility library to work with date and time
+[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
+[![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.svg?v=103)](https://opensource.org/licenses/GPL-3.0/)  
 
-### Deployment: 32%
 
-* Application deployed at live URL
+## License
 
-* Application loads with no errors
+Licensed under the [GPL](LICENSE.txt) license
 
-* Application GitHub URL submitted
 
-* GitHub repo contains application code
 
-### Application Quality: 15%
 
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the homework instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
----
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
